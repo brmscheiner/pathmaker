@@ -1,0 +1,23 @@
+{
+  "name": "pathmaker",
+  "version": "0.0.1",
+  "description": "Make common shapes with svg paths.",
+  "keywords": [
+    "svg",
+    "path",
+    "polygon"
+  ],
+  "repository": "https://github.com/brmscheiner/pathmaker.git",
+  "homepage": "https://github.com/brmscheiner/pathmaker",
+  "author": "Ben Scheiner",
+  "dependencies": {},
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "rollup": "^0.66.6",
+    "rollup-plugin-babel": "^4.0.3"
+  }
+}
